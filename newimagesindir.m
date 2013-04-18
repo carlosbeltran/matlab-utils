@@ -1,6 +1,6 @@
-function [newimages] = newimagesindir(path)
+function [newimages,previmagesList] = newimagesindir(path,previmagesList)
 
-global previmagesList
+% global previmagesList
 
 param.fgTest_dir = path;
 

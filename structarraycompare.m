@@ -1,6 +1,6 @@
 function [index] = structarraycompare(array1,array2)
 
-index = [];
+index = zeros(length(array1),1);
 for i = 1:size(array1)
     for j = 1:size(array2)
         if isequal(array1(i),array2(j))
